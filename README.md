@@ -15,4 +15,4 @@ The programming languages are:
 * Javascript
 
 # Analysis
-My personal opinion about the code will be shared in my personal blog (http://roger-almeida.blogspot.com.br/)[http://roger-almeida.blogspot.com.br]
+My personal opinion about the code will be shared in my personal blog [http://roger-almeida.blogspot.com.br/](http://roger-almeida.blogspot.com.br)
