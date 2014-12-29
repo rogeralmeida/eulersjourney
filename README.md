@@ -2,7 +2,7 @@
 
 The Euler's Journey is a attempt to implement the [Euler Project](https://projecteuler.net) problems in many programming languages.
 My objectives are:
-* Compare how many programming languages resolve commons problems
+* Compare how differents programming languages resolve commons problems
 * Have a place to point when comparing languages
 * Improve my programming skills in many languages
 
