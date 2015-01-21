@@ -23,4 +23,9 @@ public class PrimeFactorsTest {
     public void calculate_shouldCalculate360() {
         assertThat(PrimeFactors.calculate(360), equalTo(Arrays.asList(2, 2, 2, 3, 3, 5)));
     }
+
+    @Test
+    public void calculate_shouldCalculate13195() {
+        assertThat(PrimeFactors.calculate(13195), equalTo(Arrays.asList(5, 7, 13, 29)));
+    }
 }
