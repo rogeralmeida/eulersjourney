@@ -2,6 +2,7 @@ package com.github.rogeralmeida.eulersjourney;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class PrimeFactors {
     public static List<Integer> calculate(Integer number) {
@@ -22,5 +23,9 @@ public class PrimeFactors {
             result.add(number);
         }
         return result;
+    }
+
+    public static Optional<Integer> largest(int number) {
+        return calculate(number).stream().max(Integer::compare);
     }
 }
