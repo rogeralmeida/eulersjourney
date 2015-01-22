@@ -1,7 +1,6 @@
 package com.github.rogeralmeida.eulersjourney;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Optional;
 
 public class PrimeFactors {
@@ -30,6 +29,6 @@ public class PrimeFactors {
     }
 
     public static void main(String... args){
-        System.out.printf("The largest prime factor of 600851475143 is %d", largest(600851475143l));
+        System.out.printf("The largest prime factor of 600851475143 is %d", largest(600851475143l).get());
     }
 }
